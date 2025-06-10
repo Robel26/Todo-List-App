@@ -12,15 +12,15 @@ A simple, elegant To-Do List application built with **React**, **Tailwind CSS**,
 ## 📂 Project Structure
 src/
 │
-├── components/
-│ ├── Header.jsx // Displays the title "📝 To-Do List"
-│ ├── AddToDo.jsx // Contains input field and submit button
-│ ├── ToDoItem.jsx // Represents a single todo item (checkbox, text, delete button)
-│ └── ToDoList.jsx // Renders list of ToDoItem components
+ components/
+│  Header.jsx // Displays the title "📝 To-Do List"
+│  AddToDo.jsx // Contains input field and submit button
+│  ToDoItem.jsx // Represents a single todo item (checkbox, text, delete button)
+│  ToDoList.jsx // Renders list of ToDoItem components
 │
-├── App.jsx // Root component, manages state and renders layout
-├── index.css // Global CSS styles including Tailwind base styles
-└── main.jsx // Entry point, renders <App />
+ App.jsx // Root component, manages state and renders layout
+ index.css // Global CSS styles including Tailwind base styles
+└ main.jsx // Entry point, renders <App />
 
 ## 📋 Component Overview
 
