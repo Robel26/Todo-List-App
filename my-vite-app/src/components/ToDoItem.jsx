@@ -8,7 +8,6 @@
 
 import { hover, motion } from "framer-motion";
 import Checked from "../assets/check.png";
-import Circle from "../assets/circle.png";
 import Delete from "../assets/delete.png";
 
 const ToDoItem = ({ todo, onDelete, onToggle }) => {
